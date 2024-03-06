@@ -10,3 +10,4 @@ wheel
 # Flask Stack
 Flask>1.0,<2.0
 markupsafe<2.1
+cryptography<40.0.0; python_version <= '3.7' and platform_python_implementation == 'PyPy'
